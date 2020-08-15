@@ -1,0 +1,87 @@
+/* Write some CSS below */
+
+body{
+	font-family:'Fira Sans', sans-serif;
+	color: #404042;
+	font-size: 18px;
+	margin: 0;
+}
+
+h1{
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: bold;
+	color: #0d0040;
+}
+
+a{
+	text-decoration: none;
+	color: #eb2545;
+	font-weight: bold;
+}
+
+.banner{
+	background-image: url('images/background.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0;
+	text-align: center;
+	color: white;
+}
+
+.banner h1{
+	color: #F4F4F6
+}
+
+.btn-red{
+	background-color: #eb2545;
+	color: white;
+	padding: 12px 30px;
+	border-radius:4px;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration:none;
+	text-align:center;
+	margin-top: 20px;
+	opacity: 0.9;
+}
+
+.btn-red:hover{
+	opacity: 1;
+}
+
+.container{
+	width: 800px;
+	margin: 64px auto;
+	text-align: center;
+}
+
+.card-white{
+	background: white;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	text-align: center;
+	padding: 24px;
+	margin: 8px;
+	width: 200px;
+}
+
+.card-white img{
+	object-fit: cover;
+	border-radius: 4px;
+	width: 180px;
+	height: 180px;
+}
+
+.footer{
+	background: #404042;
+	text-align: center;
+	padding: 24px 0;
+	color: white;
+}
+
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
